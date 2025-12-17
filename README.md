@@ -2,6 +2,8 @@
 
 This repo serve as visible practice for mastering the use of Git and Github. Maybe I could have several of this practice repositories
 
+I can create a github repository in the website and then just clone in my PC to start working
+
 ## SSH Keys
 
 To establish a connection in my PC through the new SSH Keys method and be able to push to my repositories more comfortable, I have to follow these steps:
@@ -23,3 +25,5 @@ For the last step to test and establish the connection you have enter this comma
 ```bash
 ssh -T git@github.com
 ```
+
+And that's it. You can push to any of your repositories, make sure to push through the SSH method.
