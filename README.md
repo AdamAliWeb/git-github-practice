@@ -27,3 +27,13 @@ ssh -T git@github.com
 ```
 
 And that's it. You can push to any of your repositories, make sure to push through the SSH method.
+
+## Tips
+
+> > > When pulling from a repository it's better to use `git pull --rebase`. This instead of merging the commits you put the new commits in you local work
+
+> > > While merging or rebasing, If you made a mistake you can go back adding `--abort` after git merge/rebase.
+
+> > > To be able to check the commits which weren't pushed, use `git log --oneline --branches --not --remotes`
+
+> > > To go back to a previous commit it depends if the commit was pushed to the repo. If no then use `git reset "commit"`. If yes then use `git revert`
